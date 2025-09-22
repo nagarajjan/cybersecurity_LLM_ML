@@ -1,0 +1,19 @@
+@prefix ns1: <http://example.org/security_ontology/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ns1:Actor a rdfs:Class .
+
+ns1:Technique a rdfs:Class .
+
+ns1:Threat a rdfs:Class .
+
+ns1:APT29 a ns1:Actor ;
+    ns1:uses ns1:BruteForceAttack .
+
+ns1:MalwareCampaign a ns1:Threat ;
+    ns1:related_to "CVE-2024-1234"^^xsd:string .
+
+ns1:BruteForceAttack a ns1:Threat ;
+    ns1:related_to "Multiple failed login attempts"^^xsd:string .
+

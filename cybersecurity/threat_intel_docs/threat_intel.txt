@@ -1,0 +1,2 @@
+A brute-force attack involves repeated, systematic attempts to guess a password. This technique is often automated and can be detected by monitoring for multiple failed login attempts from a single source IP.
+Advanced Persistent Threat (APT) group APT29 is known to use brute-force attacks to gain initial access to target networks. Their tactics, techniques, and procedures (TTPs) often evolve to evade detection.
